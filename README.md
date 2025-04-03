@@ -56,7 +56,7 @@ Cinematica-Una-Vida-En-Una-Imagen/
 1. Clona el repositorio
 
 ```bash
-git clone 
+git clone https://github.com/pedroporteros/Proyecto_Cinematica_CE_IA_BD.git
 ```
 
 2. Ejecuta el notebook
