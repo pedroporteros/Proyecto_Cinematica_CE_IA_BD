@@ -45,9 +45,7 @@ El proyecto se desarrolló usando las siguientes tecnologías y herramientas:
 Cinematica-Una-Vida-En-Una-Imagen/
 ├── Cinematica_proyecto_final.ipynb   # Notebook con el código completo
 ├── README.md                         # Descripción general del proyecto
-├── examples/                         # Ejemplos de imágenes y vídeos generados (opcional)
-├── assets/                           # Imágenes para documentación o interfaz (opcional)
-└── docs/                             # Documentación complementaria del proyecto (opcional)
+└── assets/                           # Imágenes para documentación o interfaz
 ```
 ---
 
@@ -74,6 +72,23 @@ git clone https://github.com/pedroporteros/Proyecto_Cinematica_CE_IA_BD.git
 - [Documentación oficial de Gradio](https://gradio.app/)
 - [Video Diffusion Models. Paper](https://arxiv.org/abs/2204.03458)
 
+---
+
+# 📸 Ejemplos de uso
+
+- **Imagen de entrada - Video generado por el modelo**  
+    <img src="assets/imagen_de_entrada.jpg" alt="Imagen de entrada" width="300" height="400"> 
+    <img src="assets/generated_video.gif" alt="Vídeo generado" width="300" height="400">
+
+- **Descripción:**  
+    El modelo toma la imagen de entrada y genera un vídeo corto que simula movimiento y cambios en la escena, manteniendo la coherencia visual y temporal.
+- **Parámetros utilizados:** 
+  - `num_frames`: 28
+  - `FPS`: 8
+  - `Motion Bucket ID`: 127
+  - `Noise Level`: 0.02
+  - `seed`: 42
+  
 ---
 
 # 📌 Limitaciones actuales y futuras mejoras
